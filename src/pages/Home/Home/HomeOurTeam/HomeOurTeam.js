@@ -14,8 +14,8 @@ const HomeOurTeam = () => {
                            <img className="section-back-icon back-icon-left" src="img/section/section-back-icon.png" alt=""/>
                         </div>
                         <div className="section-text pos-rel">
-                           <h5>Our Team</h5>
-                           <h1>A Professional & Care Provider</h1>
+                           <h5>Team</h5>
+                           <h2>A Professional workers</h2>
                         </div>
                         <div className="section-line pos-rel">
                            <img src="img/shape/section-title-line.png" alt=""/>

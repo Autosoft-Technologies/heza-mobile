@@ -16,9 +16,9 @@ const AboutUs = () => {
          <HomeHeader/>
          <CommonPageHeader title="About Us" subtitle="About" />
          <AboutArea/>
-         <AboutCounter/>
-         <AboutAppoinment/>
-         <HomeOurTeam/>
+         {/*<AboutCounter/>*/}
+         {/*<AboutAppoinment/>*/}
+         {/*<HomeOurTeam/>*/}
          <HomeFact/>
          <AboutTestimonial/>
          <AboutAnalysis/>

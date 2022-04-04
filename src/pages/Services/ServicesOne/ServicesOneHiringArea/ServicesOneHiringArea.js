@@ -14,7 +14,7 @@ const ServicesOneHiringArea = () => {
                         </div>
                         <div className="col-xl-6 col-lg-6">
                             <div className="hire-text">
-                                <h1>For Employers</h1>
+                                <h2>For Businesses</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                                     labore et dolore magna
                                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -31,7 +31,7 @@ const ServicesOneHiringArea = () => {
                     <div className="row no-gutters hire-bg">
                         <div className="col-xl-6 col-lg-6">
                             <div className="hire-text">
-                                <h1>For Employers</h1>
+                                <h2>For individuals</h2>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                                     labore et
                                     dolore magna

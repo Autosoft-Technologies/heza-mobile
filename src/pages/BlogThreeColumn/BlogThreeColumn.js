@@ -8,7 +8,7 @@ const BlogThreeColumn = () => {
    return (
       <>
          <HomeHeader/>
-         <CommonPageHeader title="Blog 3 Column" subtitle="Blog" />
+         <CommonPageHeader title="News" subtitle="Blog" />
          <BlogThreeColumnArea/>
          <Footer/>
       </>

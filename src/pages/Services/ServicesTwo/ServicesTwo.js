@@ -14,7 +14,7 @@ const ServicesTwo = () => {
             <CommonPageHeader title="Our Services" subtitle="Services" />
             <ServicesTwoAbout/>
             <ServicesTwoArea/>
-            <CalculateArea />
+            {/*<CalculateArea />*/}
             <ServicesOneHiringArea />
             <Footer/>
         </>
