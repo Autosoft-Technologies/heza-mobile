@@ -16,7 +16,7 @@ const HomeBlogs = () => {
                         </div>
                         <div className="section-text pos-rel">
                            <h5>News</h5>
-                           <h1>Get Updates Here</h1>
+                           <h1>Our blog</h1>
                         </div>
                         <div className="section-line pos-rel">
                            <img src="img/shape/section-title-line.png" alt="" />
@@ -42,7 +42,8 @@ const HomeBlogs = () => {
 
                         <HomeSingleBlogRightSide />
                         <HomeSingleBlogRightSide />
-                        <HomeSingleBlogRightSide border="border-0" />
+                        {/*<HomeSingleBlogRightSide />*/}
+                        {/*<HomeSingleBlogRightSide border="border-0" />*/}
 
                      </div>
                      <div className="mk-call-btn f-right mb-30">

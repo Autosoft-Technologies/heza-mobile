@@ -11,10 +11,10 @@ const HomeSingleBlogLeftSide = ({image}) => {
                </div>
                <div className="latest-news-content">
                   <div className="news-meta mb-10">
-                     <span><Link to="/blogDetails" className="news-tag">Medical,</Link></span>
-                     <span><Link to="/blogDetails" className="news-tag">Medicine</Link></span>
+                     <span><Link to="/blogDetails" className="news-tag">News,</Link></span>
+                     <span><Link to="/blogDetails" className="news-tag">Mobile</Link></span>
                   </div>
-                  <h3><Link to="/blogDetails">Lorem ipsum dolor sit amet, cons ectetur adidis dicolo wiran.</Link></h3>
+                  <h3><Link to="/blogDetails">Inrease usage of mobile phones.</Link></h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
                      magna
                      aliqua. Ut enim ad minim veniam.</p>

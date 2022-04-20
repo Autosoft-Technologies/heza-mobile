@@ -11,7 +11,6 @@ const ContactArea = () => {
                                 <i className="fas fa-envelope"></i>
                                 <h3>Mail Here</h3>
                                 <p>info@mobileone.com</p>
-                                {/*<p>Info@mobileone.com</p>*/}
                             </div>
                         </div>
                         <div className="col-xl-4 col-lg-4 col-md-4">
@@ -24,10 +23,9 @@ const ContactArea = () => {
                         </div>
                         <div className="col-xl-4  col-lg-4 col-md-4 ">
                             <div className="contact text-center mb-30">
-                                <i className="fas fa-phone"></i>
-                                <h3>Call Here</h3>
-                                <p>+256 787 344 529</p>
-                                {/*<p>+256  787 344 529</p>*/}
+                                <i className="fas fa-envelope"></i>
+                                <h3>Support Here</h3>
+                                <p>support@mobileone.com</p>
                             </div>
                         </div>
                     </div>

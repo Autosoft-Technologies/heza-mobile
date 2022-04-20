@@ -12,7 +12,7 @@ const HomeSIngleService = ({ icon, title, border_class}) => {
                <div className="service-content">
                   <h3><Link to="/servicesDetails">{title}</Link></h3>
                   <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                  <Link className="service-link" to="/servicesDetails">Read More</Link>
+                  {/*<Link className="service-link" to="/servicesDetails">Read More</Link>*/}
                </div>
             </div>
          </div>

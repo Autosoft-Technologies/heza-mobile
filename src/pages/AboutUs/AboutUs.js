@@ -14,14 +14,14 @@ const AboutUs = () => {
    return (
       <>
          <HomeHeader/>
-         <CommonPageHeader title="About Us" subtitle="About" />
+         <CommonPageHeader title="Company" subtitle="About" />
          <AboutArea/>
          {/*<AboutCounter/>*/}
          {/*<AboutAppoinment/>*/}
          {/*<HomeOurTeam/>*/}
          <HomeFact/>
          <AboutTestimonial/>
-         <AboutAnalysis/>
+         {/*<AboutAnalysis/>*/}
          <Footer/>
       </>
    );

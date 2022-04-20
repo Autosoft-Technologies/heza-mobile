@@ -9,6 +9,7 @@ import HomeHeroSection from './HomeHeroSection/HomeHeroSection';
 import HomeOurTeam from './HomeOurTeam/HomeOurTeam';
 import HomePricing from './HomePricing/HomePricing';
 import HomeServices from './HomeServices/HomeServices';
+import Footer from "../../../components/Shared/Footer";
 
 const Home = () => {
     return (
@@ -22,7 +23,8 @@ const Home = () => {
             {/*<HomePricing/>*/}
             {/*<HomeCta/>*/}
             <HomeBlogs/>
-            <HomeFooter/>
+            {/*<HomeFooter/>*/}
+            <Footer/>
         </>
     );
 };

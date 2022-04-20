@@ -14,7 +14,7 @@ const HomeHeroSection = () => {
       autoplaySpeed: 10000,
       dots: false,
       fade: true,
-      arrows: true,
+      arrows: false,
       prevArrow: <SlickArrowLeft />,
       nextArrow: <SlickArrowRight />,
       slidesToShow: 1,
@@ -57,9 +57,10 @@ const HomeHeroSection = () => {
 
                <Slider className='slider-active' {...settings}>
 
+                  <HomeHeroSingleSlide bg_className="2" />
+
                   <HomeHeroSingleSlide bg_className="1" />
 
-                  <HomeHeroSingleSlide bg_className="2" />
 
                </Slider>
 

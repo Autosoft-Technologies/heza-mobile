@@ -13,7 +13,7 @@ const ServicesTwoAbout = () => {
                                          src="img/section/section-back-icon.png" alt=""/>
                                 </div>
                                 <div className="section-text section-text-small pos-rel">
-                                    <h5>health care facility</h5>
+                                    <h5>Your choice</h5>
                                     <h1>Would you rather ignore your clients or make them happy?</h1>
                                 </div>
                             </div>

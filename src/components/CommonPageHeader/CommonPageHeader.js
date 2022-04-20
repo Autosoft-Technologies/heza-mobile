@@ -13,18 +13,18 @@ const CommonPageHeader = ({title,subtitle}) => {
                         <p className="small-text pb-15 text-warning">We are here for you.</p>
                      </div>
                   </div>
-                  <div className="col-lg-3 col-md-3 d-flex justify-content-start justify-content-md-end align-items-center">
-                     <div className="page-breadcumb">
-                        <nav aria-label="breadcrumb">
-                           <ol className="breadcrumb ">
-                              <li className="breadcrumb-item">
-                                 <Link to="/">Home</Link>
-                              </li>
-                              <li className="breadcrumb-item active" aria-current="page">{subtitle}</li>
-                           </ol>
-                        </nav>
-                     </div>
-                  </div>
+                  {/*<div className="col-lg-3 col-md-3 d-flex justify-content-start justify-content-md-end align-items-center">*/}
+                  {/*   <div className="page-breadcumb">*/}
+                  {/*      <nav aria-label="breadcrumb">*/}
+                  {/*         <ol className="breadcrumb ">*/}
+                  {/*            <li className="breadcrumb-item">*/}
+                  {/*               <Link to="/">Home</Link>*/}
+                  {/*            </li>*/}
+                  {/*            <li className="breadcrumb-item active" aria-current="page">{subtitle}</li>*/}
+                  {/*         </ol>*/}
+                  {/*      </nav>*/}
+                  {/*   </div>*/}
+                  {/*</div>*/}
                </div>
             </div>
          </section>

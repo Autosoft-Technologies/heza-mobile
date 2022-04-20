@@ -10,15 +10,15 @@ const HomeFooter = () => {
                         <div className="row">
                             <div className="col-xl-5 col-lg-6 col-md-8">
                                 <div className="footer-contact-info mb-30">
-                                    <div className="emmergency-call fix">
-                                        <div className="emmergency-call-icon f-left">
-                                            <i className="fas fa-phone"></i>
-                                        </div>
-                                        <div className="emmergency-call-text f-left">
-                                            <h6>Phone number</h6>
-                                            <span>256-787-343434</span>
-                                        </div>
-                                    </div>
+                                    {/*<div className="emmergency-call fix">*/}
+                                        {/*<div className="emmergency-call-icon f-left">*/}
+                                        {/*    <i className="fas fa-phone"></i>*/}
+                                        {/*</div>*/}
+                                        {/*<div className="emmergency-call-text f-left">*/}
+                                        {/*    <h6>Phone number</h6>*/}
+                                        {/*    <span>+256 706 948 908</span>*/}
+                                        {/*</div>*/}
+                                    {/*</div>*/}
                                     <div className="footer-logo mb-35">
                                         <Link to="/"><img src="img/logo/footer-logo.png" alt=""/></Link>
                                     </div>
@@ -39,10 +39,10 @@ const HomeFooter = () => {
                                     </div>
                                     <div className="footer-menu">
                                         <ul>
-                                            <li><Link to="/servicesDetails">Facebook</Link></li>
-                                            <li><Link to="/servicesDetails">Twiter</Link></li>
-                                            <li><Link to="/servicesDetails">Linkedin</Link></li>
-                                            <li><Link to="/servicesDetails">Instagram</Link></li>
+                                            <li><Link to="/">Facebook</Link></li>
+                                            <li><Link to="/">Twiter</Link></li>
+                                            <li><Link to="/">Linkedin</Link></li>
+                                            {/*<li><Link to="/">Instagram</Link></li>*/}
                                             {/*<li><Link to="/servicesDetails">Pediatrics</Link></li>*/}
                                         </ul>
                                     </div>
@@ -55,11 +55,11 @@ const HomeFooter = () => {
                                     </div>
                                     <div className="footer-menu">
                                         <ul>
-                                            <li><Link to="/servicesDetails">Home</Link></li>
-                                            <li><Link to="/doctors">About us</Link></li>
-                                            <li><Link to="/blogs">Contact us</Link></li>
-                                            {/*<li><Link to="/shop">Services</Link></li>*/}
-                                            <li><Link to="/contact">Blog</Link></li>
+                                            <li><Link to="/">Home</Link></li>
+                                            <li><Link to="/about">About us</Link></li>
+                                            <li><Link to="/contact">Contact us</Link></li>
+                                            <li><Link to="/services">Services</Link></li>
+                                            {/*<li><Link to="/">Blog</Link></li>*/}
                                         </ul>
                                     </div>
                                 </div>

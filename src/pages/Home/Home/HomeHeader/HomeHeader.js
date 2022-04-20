@@ -11,23 +11,23 @@ const HomeHeader = () => {
     return (
         <>
             <header>
-                <div className="top-bar d-none d-md-block">
-                    <div className="container">
-                        <div className="row d-flex align-items-center">
-                            <div className="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1 col-md-7 offset-md-1">
-                                <div className="header-info">
-                                    <span><i className="fas fa-phone"></i> +256 787 344 529</span>
-                                    <span><i className="fas fa-envelope"></i> xtian@gmail.com</span>
-                                </div>
-                            </div>
-                            <div className="col-xl-5 col-lg-5 col-md-4">
-                                <div className="header-top-right-btn f-right">
-                                    <Link to="/contact" className="primary_btn"> Contact </Link>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                {/*<div className="top-bar d-none d-md-block">*/}
+                {/*    <div className="container">*/}
+                {/*        <div className="row d-flex align-items-center">*/}
+                {/*            <div className="col-xl-6 offset-xl-1 col-lg-6 offset-lg-1 col-md-7 offset-md-1">*/}
+                {/*                <div className="header-info">*/}
+                {/*                    <span><i className="fas fa-phone"></i> +256 787 344 529</span>*/}
+                {/*                    <span><i className="fas fa-envelope"></i> xtian@gmail.com</span>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*            <div className="col-xl-5 col-lg-5 col-md-4">*/}
+                {/*                <div className="header-top-right-btn f-right">*/}
+                {/*                    <Link to="/contact" className="primary_btn"> Contact </Link>*/}
+                {/*                </div>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
 
                 <div className={stickyMenu ? "header-menu-area sticky_menu" : "header-menu-area"}>
                     <div className="container menu_wrapper">
@@ -50,10 +50,10 @@ const HomeHeader = () => {
                                 <div className="header__menu f-right">
                                     <nav id="mobile-menu">
                                         <ul>
-                                            <li><Link to="/">Home</Link></li>
-                                            <li><Link to="/about">About</Link></li>
-                                            <li><Link to="/servicesTwo">Services</Link></li>
-                                            {/*<li><Link to="/blogThreeColumn">News</Link></li>*/}
+                                            <li><Link to="/">Products</Link></li>
+                                            <li><Link to="/about">Company</Link></li>
+                                            <li><Link to="/about">Usecases</Link></li>
+                                            <li><Link to="/services">Developers</Link></li>
                                             <li><Link to="/contact">Contact</Link></li>
                                         </ul>
                                     </nav>
