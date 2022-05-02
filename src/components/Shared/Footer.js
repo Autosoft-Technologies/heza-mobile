@@ -12,7 +12,7 @@ const Footer = () => {
                             <div className="col-xl-4 col-lg-6 col-md-6">
                                 <div className="footer-contact-info footer-contact-info-3 mb-40">
                                     <div className="footer-logo mb-35">
-                                        <Link to="/"><img src="img/logo/footer-logo.png" alt=""/></Link>
+                                        <Link to="/"><img src="img/logo/heza-mobile-footer.png" alt="Heza logo"/></Link>
                                     </div>
                                     <div className="footer-contact-content mb-25">
                                         <p>
@@ -47,9 +47,10 @@ const Footer = () => {
                                     </div>
                                     <div className="footer-menu footer-menu-2">
                                         <ul>
-                                            <li><Link to="/">Home</Link></li>
-                                            <li><Link to="/about">About us</Link></li>
-                                            <li><Link to="/services">Services</Link></li>
+                                            <li><Link to="/">Products</Link></li>
+                                            <li><Link to="/about">Company</Link></li>
+                                            <li><Link to="#">Usecases</Link></li>
+                                            <li><Link to="/services">Developers</Link></li>
                                             <li><Link to="/contact">Contact us</Link></li>
                                             {/*<li><Link to="/servicesDetails">Appoinment</Link></li>*/}
                                             <li><Link to="/#">Blog</Link></li>
