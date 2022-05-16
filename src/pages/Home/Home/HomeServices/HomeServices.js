@@ -13,7 +13,7 @@ const HomeServices = () => {
                            <img className="section-back-icon" src="img/section/section-back-icon.png" alt=""/>
                         </div>
                         <div className="section-text pos-rel home_ser_title">
-                           <h5>Services</h5>
+                           {/*<h5>Services</h5>*/}
                            <h1>Our Services</h1>
                         </div>
                         <div className="section-line pos-rel">

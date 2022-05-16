@@ -17,7 +17,7 @@ const ContactArea = () => {
                             <div className="contact text-center mb-30">
                                 <i className="fas fa-map-marker-alt"></i>
                                 <h3>Visit Here</h3>
-                                <p>POBox 1000, Kampala
+                                <p>POBox 970003, Kansanga, Kampala
                                     Uganda</p>
                             </div>
                         </div>
