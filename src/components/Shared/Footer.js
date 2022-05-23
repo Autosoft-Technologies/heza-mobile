@@ -67,7 +67,7 @@ const Footer = () => {
 
                                     <div className="footer-emailing">
                                         <ul>
-                                            <li><i className="far fa-envelope"></i>info@hezamobile.com</li>
+                                            <li><i className="far fa-envelope"></i>hello@hezamobile.com</li>
                                             <li><i className="far fa-globe"></i>www.hezamobile.com</li>
                                             <li><i className="far fa-map"></i>Kansanga, Kampala Uganda</li>
                                         </ul>
