@@ -52,8 +52,8 @@ const HomeHeader = () => {
                                         <ul>
                                         <li><Link to="/">Products</Link></li>
                                             <li><Link to="/about">Our Story</Link></li>
-                                            <li><Link to="/contact">Contact</Link></li>
                                             <li><Link to="/services">Solutions</Link></li>
+                                            <li><Link to="/contact">Contact</Link></li>
                                             {/*<li><Link to="/">Blog</Link></li>*/}
                                         </ul>
                                     </nav>

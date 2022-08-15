@@ -16,7 +16,9 @@ const Footer = () => {
                                     {/*</div>*/}
                                     <div className="footer-contact-content mb-25">
                                         <p>
-                                        We are a Communication Platform as a Service (CPaaS) that lets existing business software interact with and incentivise their customers using prefered APIs channels   — like SMS, Airtime & Data, USSD, and Verification.
+                                            We are a Communication Platform as a Service (CPaaS) that lets existing
+                                            business software interact with and incentivize their customers using
+                                            preferred APIs channels — like SMS, Airtime & Data, USSD, WhatsApp Business and Verification.
                                         </p>
                                         <div className="header-social-icons f-left d-none d-xl-block">
                                             <ul>
@@ -25,15 +27,6 @@ const Footer = () => {
                                                 <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
                                             </ul>
                                         </div>
-                                        {/*<div>*/}
-                                        {/*    <ul>*/}
-                                        {/*        <li>*/}
-                                        {/*            /!*<a href="#"><i className="far fa-envelope" className="white-color"></i></a> &nbsp;*!/*/}
-                                        {/*            <i className="fas fa-facebook"></i>*/}
-                                        {/*        </li>*/}
-                                        {/*    </ul>*/}
-
-                                        {/*</div>*/}
                                     </div>
 
                                 </div>
@@ -49,8 +42,7 @@ const Footer = () => {
                                             <li><Link to="/about">Company</Link></li>
                                             <li><Link to="#">Usecases</Link></li>
                                             <li><Link to="/services">Developers</Link></li>
-                                            <li><Link to="/contact">Contact us</Link></li>
-                                            {/*<li><Link to="/servicesDetails">Appoinment</Link></li>*/}
+                                            <li><Link to="/contact">Contact</Link></li>
                                             <li><Link to="/#">Blog</Link></li>
                                         </ul>
                                     </div>
@@ -67,7 +59,7 @@ const Footer = () => {
                                         <ul>
                                             <li><i className="far fa-envelope"></i>hello@hezamobile.com</li>
                                             <li><i className="far fa-globe"></i>www.hezamobile.com</li>
-                                            <li><i className="far fa-map"></i>Kansanga, Kampala Uganda</li>
+                                            <li><i className="far fa-map"></i>Kansanga, Ggaba Road, Kampala Uganda</li>
                                         </ul>
                                     </div>
 
@@ -83,8 +75,10 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="footer-copyright footer-copyright-3 text-center">
-                                    <p className="white-color">Copyright &copy; 2022 Heza Mobile &nbsp;| &nbsp; Powered by &nbsp;
-                                         <a href="https://autosoftug.com/" target="_blank" className="white-color" >Autosoft</a>
+                                    <p className="white-color">Copyright &copy; 2022 Heza Mobile Ltd &nbsp;| &nbsp; Powered
+                                        by &nbsp;
+                                        <a href="https://autosoftug.com/" target="_blank"
+                                           className="white-color">Autosoft</a>
                                     </p>
                                 </div>
                             </div>

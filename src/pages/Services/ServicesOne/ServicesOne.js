@@ -11,7 +11,7 @@ const ServicesOne = () => {
    return (
       <>
          <HomeHeader/>
-         <CommonPageHeader title="Our Services" subtitle="Services" />
+         <CommonPageHeader title="Services" subtitle="Services" />
          {/*<ServicesOneABout/>*/}
           <ServicesTwoAbout/>
          {/*<CalculateArea/>*/}
