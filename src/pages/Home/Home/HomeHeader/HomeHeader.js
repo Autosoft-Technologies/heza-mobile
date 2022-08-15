@@ -34,7 +34,7 @@ const HomeHeader = () => {
                         <div className="row align-items-center">
                             <div className="col-xl-3 col-lg-3 col-md-6 col-6 d-flex align-items-center">
                                 <div className="logo logo-circle pos-rel">
-                                    <Link to="/"><img src="img/logo/heza-mobile-logo.png" alt="Heza mobile logo"/></Link>
+                                    <Link to="/"><img src="img/logo/heza-mobile-white.jpg" alt="Heza mobile logo"/></Link>
                                 </div>
                             </div>
                             <div className="col-xl-9 col-lg-9 col-md-6 col-6">
@@ -51,8 +51,8 @@ const HomeHeader = () => {
                                     <nav id="mobile-menu">
                                         <ul>
                                         <li><Link to="/">Products</Link></li>
-                                            <li><Link to="/about">Usecases</Link></li>
-                                            <li><Link to="/contact">Company</Link></li>
+                                            <li><Link to="/about">Our Story</Link></li>
+                                            <li><Link to="/contact">Contact</Link></li>
                                             <li><Link to="/services">Solutions</Link></li>
                                             {/*<li><Link to="/">Blog</Link></li>*/}
                                         </ul>
@@ -63,6 +63,7 @@ const HomeHeader = () => {
                                     <button onClick={handleShow} className="side-toggle border-0 bg-transparent">
                                         <i className="fas fa-bars"></i></button>
                                 </div>
+
                             </div>
                         </div>
                     </div>

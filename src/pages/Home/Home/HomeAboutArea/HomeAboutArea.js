@@ -11,7 +11,7 @@ const HomeAboutArea = () => {
                                 <img src="img/about/medical-brand-icon-border.png" alt=""/>
                             </div>
                             <div className="about-left-side pos-rel mb-30">
-                                <div className="about-front-img img-thumbnail rounded">
+                                <div className="about-front-img rounded">
                                     <img src="img/about/about-img.jpg" alt=""/>
                                 </div>
                                 <div className="about-shape">

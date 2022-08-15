@@ -14,7 +14,7 @@ const HomeServices = () => {
                         </div>
                         <div className="section-text pos-rel home_ser_title">
                            {/*<h5>Services</h5>*/}
-                           <h1>Our Services</h1>
+                           <h1>Services</h1>
                         </div>
                         <div className="section-line pos-rel">
                            <img src="img/shape/section-title-line.png" alt=""/>
@@ -24,12 +24,11 @@ const HomeServices = () => {
                </div>
                <div className="row">
 
-                  <HomeSIngleService icon="1" title="SMS sales" />
-                  <HomeSIngleService icon="2" title="Mobile internet" />
-                  <HomeSIngleService icon="3" title="Mobile talktime" />
-                  {/*<HomeSIngleService icon="4" title="Blood Cancer" />*/}
-                  {/*<HomeSIngleService icon="5" title="Neurology Sargery" />*/}
-                  {/*<HomeSIngleService icon="6" title="Allergic Issue" />*/}
+                  <HomeSIngleService icon="1" content={'Integrate SMS service within your business application for reach communication, Transactional, Verification and Authentications.\n' +
+                  '                  '} title="SMS" />
+                  <HomeSIngleService icon="5" content={'Make payments, do personalized surveys and data collection on all mobile phone devices.'} title="USSD" />
+                  <HomeSIngleService icon="3" content={'Easily send airtime or data to mobile phone users as top-ups or as incentives.'} title="Airtime & Data" />
+                  <HomeSIngleService icon="4" content={'Engage with your customers on the most popular chat app.'} title="WhatApp Business" />
 
                </div>
             </div>

@@ -10,14 +10,11 @@ const CommonSectionArea = ({area_header}) => {
                             {area_header}
                         </div>
                         <div className="col-xl-6 col-lg-7">
-                            <div className="about-right-side pt-55 mb-30">
-                                <div className="about-title mb-20">
-                                    <h3>Our Story</h3>
-                                    {/*<h1>About Us</h1>*/}
-                                </div>
+                            <div className="about-right-side mb-30">
+                                {/*<div className="about-title mb-20"></div>*/}
                                 <div className="about-text mb-50">
 
-                                    <p>
+                                    <p style={{ justifyContent: 'space-between' }}>
                                     We are a team of experts with many years of experinence in IT and Telecommunications Industry with the thirst of solving business communications challenges using the existing technologies. We have a deep understanding of the market's needs, the shortcomings of established commercial technologies, and a robust vision for where things could be headed.
                                     </p>
                                     <p>
@@ -33,28 +30,30 @@ const CommonSectionArea = ({area_header}) => {
                                     Today we are working with a number of startup businesses, established financial institutions, insurance companies and NGOs around Africa, who offer their customer-base a scalable, user-friendly, effective omni-channel self-service solutions as well as an unimaginable Customer Experience while reducing business operations costs.
                                     </p>
                                 </div>
-                                <div className="our-destination">
-                                    <div className="single-item mb-30">
-                                        <div className="mv-icon f-left">
-                                            <img src="img/about/destination-icon-1.png" alt=""/>
-                                        </div>
-                                        <div className="mv-title fix">
-                                            <h3>Our Mission</h3>
-                                            <p>To be the preferred communication solutions provider for innovators to provide unimaginable service experience to their customers.</p>
-                                        </div>
-                                    </div>
-                                    <div className="single-item">
-                                        <div className="mv-icon f-left">
-                                            <img src="img/about/destination-icon-2.png" alt=""/>
-                                        </div>
-                                        <div className="mv-title fix">
-                                            <h3>Our Vision</h3>
-                                            <p>To enhance communications between businesses and their customers</p>
-                                        </div>
-                                    </div>
+                            </div>
+                        </div>
+
+                        <div className="our-destination row pt-40">
+                            <div className="col-md-6">
+                                <div className="mv-icon f-left">
+                                    <img src="img/about/destination-icon-1.png" alt=""/>
+                                </div>
+                                <div className="mv-title fix">
+                                    <h3>Mission</h3>
+                                    <p>To be the preferred communication solutions provider for innovators to provide unimaginable service experience to their customers.</p>
+                                </div>
+                            </div>
+                            <div className="single-item mb-30 col-md-6 col-lg-6">
+                                <div className="mv-icon f-left">
+                                    <img src="img/about/destination-icon-2.png" alt=""/>
+                                </div>
+                                <div className="mv-title fix">
+                                    <h3>Vision</h3>
+                                    <p>To enhance communications between businesses and their customers</p>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
