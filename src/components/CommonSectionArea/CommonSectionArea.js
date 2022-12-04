@@ -13,21 +13,36 @@ const CommonSectionArea = ({area_header}) => {
                             <div className="about-right-side mb-30">
                                 {/*<div className="about-title mb-20"></div>*/}
                                 <div className="about-text mb-50">
-
-                                    <p style={{ justifyContent: 'space-between' }}>
-                                    We are a team of experts with many years of experinence in IT and Telecommunications Industry with the thirst of solving business communications challenges using the existing technologies. We have a deep understanding of the market's needs, the shortcomings of established commercial technologies, and a robust vision for where things could be headed.
+                                    {/*style={{ align: 'center' }}*/}
+                                    <p className="row d-flex justify-content-evenly" >
+                                        We are a team of experts with many years of experinence in IT and
+                                        Telecommunications Industry with the thirst of solving business communications
+                                        challenges using the existing technologies. We have a deep understanding of the
+                                        market's needs, the shortcomings of established commercial technologies, and a
+                                        robust vision for where things could be headed.
                                     </p>
                                     <p>
-                                    Founded in 2022, with the idea of letting the customer think about the challenges of their business and we solve it in our making.
+                                        Founded in 2022, with the idea of letting the customer think about the
+                                        challenges of their business and we solve it in our making.
                                     </p>
                                     <p>
-                                    Heza Mobile started as a telecom service integrator, building solutions on top of telecoms software. We also venture in integrating 3rd party OTT software like WhatsApp For Business to enhance business communication through the most used chat App in the world.
+                                        Heza Mobile started as a telecom service integrator, building solutions on top
+                                        of telecoms software. We also venture in integrating 3rd party OTT software like
+                                        WhatsApp For Business to enhance business communication through the most used
+                                        chat App in the world.
                                     </p>
                                     <p>
-                                    In an attempt to overcome business Customer care communications deficiencies, we set out the idea to create a next generation Conversational API stack which enables more efficient business expansion within a market and grows the TAM for B2C business.
+                                        In an attempt to overcome business Customer care communications deficiencies, we
+                                        set out the idea to create a next generation Conversational API stack which
+                                        enables more efficient business expansion within a market and grows the TAM for
+                                        B2C business.
                                     </p>
                                     <p>
-                                    Today we are working with a number of startup businesses, established financial institutions, insurance companies and NGOs around Africa, who offer their customer-base a scalable, user-friendly, effective omni-channel self-service solutions as well as an unimaginable Customer Experience while reducing business operations costs.
+                                        Today we are working with a number of startup businesses, established financial
+                                        institutions, insurance companies and NGOs around Africa, who offer their
+                                        customer-base a scalable, user-friendly, effective omni-channel self-service
+                                        solutions as well as an unimaginable Customer Experience while reducing business
+                                        operations costs.
                                     </p>
                                 </div>
                             </div>
@@ -40,7 +55,8 @@ const CommonSectionArea = ({area_header}) => {
                                 </div>
                                 <div className="mv-title fix">
                                     <h3>Mission</h3>
-                                    <p>To be the preferred communication solutions provider for innovators to provide unimaginable service experience to their customers.</p>
+                                    <p>To be the preferred communication solutions provider for innovators to provide
+                                        unimaginable service experience to their customers.</p>
                                 </div>
                             </div>
                             <div className="single-item mb-30 col-md-6 col-lg-6">

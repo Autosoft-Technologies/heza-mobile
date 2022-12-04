@@ -13,8 +13,6 @@ const ServicesTwo = () => {
             <HomeHeader />
             <CommonPageHeader title="Our Services" subtitle="Services" />
             <ServicesTwoAbout/>
-            <ServicesTwoArea/>
-            {/*<CalculateArea />*/}
             <ServicesOneHiringArea />
             <Footer/>
         </>

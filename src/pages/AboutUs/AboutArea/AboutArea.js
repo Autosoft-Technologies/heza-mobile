@@ -7,8 +7,8 @@ const AboutArea = () => {
     const [isOpen, setOpen] = useState(false);
     return (
         <>
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen}
-                        videoId="I3u3lFA9GX4" onClose={() => setOpen(false)}/>
+            {/*<ModalVideo channel='youtube' autoplay isOpen={isOpen}*/}
+            {/*            videoId="I3u3lFA9GX4" onClose={() => setOpen(false)}/>*/}
 
             <CommonSectionArea area_header={
                 <div className="about-left-side pos-rel mb-30">
