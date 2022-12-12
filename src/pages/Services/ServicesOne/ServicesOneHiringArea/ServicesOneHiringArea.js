@@ -15,9 +15,14 @@ const ServicesOneHiringArea = () => {
                         <div className="col-xl-6 col-lg-6">
                             <div className="hire-text mt-50">
 
-                                <h2>Mobile Data and Airtime</h2>
-                                <p>Increase customer interactions and loyalty to your business by offering airtime or
-                                    data in form of incentives.
+                                <h2>Airtime & Data</h2>
+                                <p>
+                                    Airtime platform that allows businesses to easily and securely buy and distribute
+                                    airtime to their customers. This will enable businesses to reward their customers
+                                    with discounts and special offers and our mobile data platform that allows
+                                    businesses to purchase and distribute data packages to their customers. This will
+                                    enable businesses to offer their customers discounts on data plans, as well as to
+                                    provide access to their own applications and services.
                                 </p>
                             </div>
                         </div>
@@ -26,7 +31,10 @@ const ServicesOneHiringArea = () => {
                         <div className="col-xl-6 col-lg-6">
                             <div className="hire-text mt-50">
                                 <h2>WhatsApp Business </h2>
-                                <p>Engage with your customers in real time via WhatsApp end to end encrypted messages.
+                                <p>Our WhatsApp Business solution is specifically designed to enable businesses to
+                                    communicate more effectively with their customers. This powerful platform allows
+                                    businesses to easily create and manage customer conversations, provide customer
+                                    service, and create automated marketing campaigns
                                 </p>
                                 {/*<Link to="/contact"*/}
                                 {/*    className="primary_btn btn-icon ml-0"><span>+</span>apply today</Link>*/}
@@ -48,8 +56,8 @@ const ServicesOneHiringArea = () => {
                         <div className="col-xl-6 col-lg-6">
                             <div className="hire-text mt-50">
                                 <h2>SMS</h2>
-                                <p>Notify potential customers about your services in form of promotions and updates.
-                                    Reduce online fraud through OTPs (One Time Passwords).
+                                <p>Send automated messages to their customers. These messages can be used to promote
+                                    special offers, alert customers to new products, or provide customer support.
                                 </p>
                                 {/*<Link to="/contact"*/}
                                 {/*      className="primary_btn btn-icon btn-icon-green ml-0"><span>+</span>Contact us</Link>*/}
@@ -61,8 +69,10 @@ const ServicesOneHiringArea = () => {
                         <div className="col-xl-6 col-lg-6">
                             <div className="hire-text mt-50">
                                 <h2>USSD</h2>
-                                <p>Create a real time transaction-based Engagement with mobile users using smart phone
-                                    or feature phones and get constant feedback, make payments etc.
+                                <p className="flex justify-content-evenly">We provide a USSD platform that allows businesses to create a customized menu of
+                                    services that are tailored to their customers’ needs. The platform will also allow
+                                    customers to access a range of services such as balance enquiries, account
+                                    information, bill payments, and product purchases.
                                 </p>
                                 {/*<Link to="/contact"*/}
                                 {/*      className="primary_btn btn-icon btn-icon-green ml-0"><span>+</span>Contact us</Link>*/}
