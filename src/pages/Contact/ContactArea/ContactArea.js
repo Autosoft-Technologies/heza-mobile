@@ -17,7 +17,7 @@ const ContactArea = () => {
                             <div className="contact text-center mb-30">
                                 <i className="fas fa-map-marker-alt"></i>
                                 <h3>Visit Us</h3>
-                                <p>JB mall Kansanga Ggaba road, Kampala, Uganda</p>
+                                <p>P.O Box 116783, Maria Plaza, Bombo road, Kampala Uganda</p>
                             </div>
                         </div>
                         <div className="col-xl-4  col-lg-4 col-md-4 ">
