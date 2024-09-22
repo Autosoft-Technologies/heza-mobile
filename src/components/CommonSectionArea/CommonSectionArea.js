@@ -13,23 +13,19 @@ const CommonSectionArea = ({area_header}) => {
                             <div className="about-right-side mb-30">
                                 {/*<div className="about-title mb-20"></div>*/}
                                 <div className="about-text mb-50">
-                                    {/*style={{ align: 'center' }}*/}
-                                    <p className="row d-flex justify-content-evenly" >
-                                        We are a team of experts with many years of experinence in IT and
+                                    <p style={{
+                                        alignContent: 'justify'
+                                    }}>
+                                        Heza Mobile is composed of a team of experts with many years of experinence in IT and
                                         Telecommunications Industry with the thirst of solving business communications
                                         challenges using the existing technologies. We have a deep understanding of the
                                         market's needs, the shortcomings of established commercial technologies, and a
                                         robust vision for where things could be headed.
                                     </p>
                                     <p>
-                                        Founded in 2022, with the idea of letting the customer think about the
-                                        challenges of their business and we solve it in our making.
-                                    </p>
-                                    <p>
-                                        Heza Mobile started as a telecom service integrator, building solutions on top
-                                        of telecoms software. We also venture in integrating 3rd party OTT software like
-                                        WhatsApp For Business to enhance business communication through the most used
-                                        chat App in the world.
+                                        Heza Mobile was founded in 2022 as a telecom and chat communications services
+                                        Integrator, with the idea of letting busineses think
+                                        about their business challenges and we solve them in our making.
                                     </p>
                                     <p>
                                         In an attempt to overcome business Customer care communications deficiencies, we

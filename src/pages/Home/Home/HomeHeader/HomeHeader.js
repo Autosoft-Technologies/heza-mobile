@@ -42,19 +42,20 @@ const HomeHeader = () => {
                                     <div className="header-social-icons f-right d-none d-xl-block">
                                         <ul>
                                             {/*<li><a href="#"><i className="fab fa-facebook-f"></i></a></li>*/}
-                                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                                            <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
+                                            <li><a target="_blank" href="https://twitter.com/HezaMobile">
+                                                <i className="fab fa-twitter"></i></a></li>
+                                            <li><a target="_blank" href="https://www.linkedin.com/company/heza-mobile/"><i
+                                                className="fab fa-linkedin"></i></a></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="header__menu f-right">
                                     <nav id="mobile-menu">
                                         <ul>
-                                        <li><Link to="/">Products</Link></li>
-                                            <li><Link to="/about">Our Story</Link></li>
+                                            <li><Link to="/">Products</Link></li>
+                                            <li><Link to="/about">Company</Link></li>
                                             <li><Link to="/solutions">Solutions</Link></li>
                                             <li><Link to="/contact">Contact</Link></li>
-                                            {/*<li><Link to="/">Blog</Link></li>*/}
                                         </ul>
                                     </nav>
                                 </div>

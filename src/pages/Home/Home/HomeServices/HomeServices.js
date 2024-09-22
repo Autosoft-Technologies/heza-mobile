@@ -14,7 +14,7 @@ const HomeServices = () => {
                                 </div>
                                 <div className="section-text pos-rel home_ser_title">
                                     {/*<h5>Services</h5>*/}
-                                    <h1>Services</h1>
+                                    <h2 style={{fontFamily: 'Arial'}}>Leverage on our APIs to enhance your <br/> business-customer engagement, support, and digital rewards</h2>
                                 </div>
                                 <div className="section-line pos-rel">
                                     <img src="img/shape/section-title-line.png" alt=""/>

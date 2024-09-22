@@ -5,11 +5,7 @@ import Collapsible from 'react-collapsible';
 
 const Sidebar = ({ show, handleClose }) => {
    const Home = <NavLink to="/home">Home</NavLink>
-   const Department = <NavLink to="/services">Department </NavLink>
-   const Doctors = <NavLink to="/doctors">Doctors </NavLink>
-   const Shop = <NavLink to="/shop">Shop</NavLink>
-   const News = <NavLink to="/blogSidebar">News</NavLink>
-   const Pages = <a href="#">Pages</a>
+
    return (
       <>
 
@@ -27,17 +23,10 @@ const Sidebar = ({ show, handleClose }) => {
                   <div trigger={Home} triggerTagName="div"
                        triggerOpenedClassName="icon_close" triggerClassName="iconAdd" open={false}>
                      <ul className="sidebar_sub_menu text-white mt-3">
-                        {/*<li><NavLink to="/">Products</NavLink></li>*/}
-                        {/*<li><NavLink to="/about">About us</NavLink></li>*/}
-                        {/*<li><NavLink to="/services">Services</NavLink></li>*/}
-                        {/*<li><NavLink to="/contact">Contact</NavLink></li>*/}
-
-                        <li><NavLink to="/">Products</NavLink></li>
-                        <li><NavLink to="/about">Company</NavLink></li>
-                        <li><NavLink to="/about">Usecases</NavLink></li>
-                        <li><NavLink to="/services">Developers</NavLink></li>
-                        <li><NavLink to="/contact">Contact</NavLink></li>
-
+                        <li><Link to="/">Products</Link></li>
+                        <li><Link to="/about">Our Story</Link></li>
+                        <li><Link to="/solutions">Solutions</Link></li>
+                        <li><Link to="/contact">Contact</Link></li>
                      </ul>
                   </div>
 

@@ -16,15 +16,14 @@ const Footer = () => {
                                     {/*</div>*/}
                                     <div className="footer-contact-content mb-25">
                                         <p>
-                                            We are a Communication Platform as a Service (CPaaS) that lets existing
+                                            Heza Mobile is a Communication Platform as a Service (CPaaS) that lets existing
                                             business software interact with and incentivize their customers using
                                             preferred APIs channels — like SMS, Airtime & Data, USSD, WhatsApp Business and Verification.
                                         </p>
                                         <div className="header-social-icons f-left d-none d-xl-block">
                                             <ul>
-                                                <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
+                                                <li><a target="_blank" href="https://twitter.com/HezaMobile"><i className="fab fa-twitter"></i></a></li>
+                                                <li><a target="_blank" href="https://www.linkedin.com/company/heza-mobile/"><i className="fab fa-linkedin"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -41,7 +40,7 @@ const Footer = () => {
                                             <li><Link to="/">Products</Link></li>
                                             <li><Link to="/about">Company</Link></li>
                                             <li><Link to="#">Usecases</Link></li>
-                                            <li><Link to="/services">Developers</Link></li>
+                                            <li><Link to="#">Developers</Link></li>
                                             <li><Link to="/contact">Contact</Link></li>
                                             <li><Link to="/#">Blog</Link></li>
                                         </ul>
@@ -57,9 +56,30 @@ const Footer = () => {
 
                                     <div className="footer-emailing">
                                         <ul>
-                                            <li><i className="far fa-envelope"></i>hello@hezamobile.com</li>
-                                            <li><i className="far fa-globe"></i>www.hezamobile.com</li>
-                                            <li><i className="far fa-map"></i>Kansanga, Ggaba Road, Kampala Uganda</li>
+
+                                            <li>
+                                                <div className="row align-items-center" style={{position: 'relative', zIndex: '9999'}}>
+                                                    <div className="col-md-1"><i className="far fa-envelope"></i></div>
+                                                    <div className="col-md-11">hello@hezamobile.com</div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div className="row align-items-center" style={{position: 'relative', zIndex: '9999'}}>
+                                                    <div className="col-md-1"><i className="far fa-globe"></i></div>
+                                                    <div className="col-md-11">www.hezamobile.com</div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div className="row align-items-center" style={{position: 'relative', zIndex: '9999'}}>
+                                                    <div className="col-md-1"><i className="far fa-map"></i></div>
+                                                    <div className="col-md-11">P.O Box 116783, Maria Plaza, Bombo
+                                                        road, Kampala Uganda</div>
+                                                </div>
+                                            </li>
+
+
                                         </ul>
                                     </div>
 
@@ -75,7 +95,8 @@ const Footer = () => {
                         <div className="row">
                             <div className="col-xl-12">
                                 <div className="footer-copyright footer-copyright-3 text-center">
-                                    <p className="white-color">Copyright &copy; 2022 Heza Mobile Ltd &nbsp;| &nbsp; Powered
+                                    <p className="white-color">Copyright &copy; {new Date().getFullYear()} Heza Mobile. All rights reserved
+                                        &nbsp;| &nbsp; Powered
                                         by &nbsp;
                                         <a href="https://autosoftug.com/" target="_blank"
                                            className="white-color">Autosoft</a>

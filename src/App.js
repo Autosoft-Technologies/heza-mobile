@@ -11,6 +11,7 @@ import ServicesOne from './pages/Services/ServicesOne/ServicesOne';
 import ServicesTwo from './pages/Services/ServicesTwo/ServicesTwo';
 import './App.css';
 import NotFound from './pages/NotFound/NotFound';
+import React from "react";
 
 
 function App() {
@@ -25,8 +26,8 @@ function App() {
             <Route path="/solutions" element={<ServicesOne />} />
             {/*<Route path="/servicesTwo" element={<ServicesTwo />} />*/}
             <Route path="/servicesDetails" element={<ServicesDetails />} />
-            <Route path="/blogs" element={<Blogs />} />
-            <Route path="/blogDetails" element={<BlogDetails />} />
+            {/*<Route path="/blogs" element={<Blogs />} />*/}
+            {/*<Route path="/blogDetails" element={<BlogDetails />} />*/}
             <Route path="/about" element={<AboutUs />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/notMatch" element={<NotFound />} />
