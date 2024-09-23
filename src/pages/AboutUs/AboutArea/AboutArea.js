@@ -13,7 +13,7 @@ const AboutArea = () => {
             <CommonSectionArea area_header={
                 <div className="about-left-side pos-rel mb-30">
                     <div className="about-front-img pos-rel">
-                        <img src="img/about/about-img.jpg" alt=""/>
+                        <img src="img/about/heza-call-center.jpg" alt=""/>
                     </div>
                     <div className="about-shape">
                         <img src="img/about/about-shape.png" alt=""/>

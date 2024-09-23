@@ -14,11 +14,11 @@ const HomeHeroSingleSlide = ({bg_className}) => {
                             <div className="hero-text">
                                 <div className="hero-slider-caption ">
                                     {/*<h5>Reaward your clients with digital gifts.</h5>*/}
-                                    <h1 className="white-color">Reliable Communication Platform.</h1>
+                                    <h1 className="white-color">Your Messaging Enabler</h1>
                                     <h5 className="" style={{color: '#f79a19'}}>
-                                        Heza Mobile is a Communication Platform that lets existing business software interact
-                                        with customers using preferred APIs channels like SMS, Airtime & Data, USSD and
-                                        WhatsApp Business.
+                                        Create meaningful connections with your customers at every stage of their
+                                        journey, facilitating conversations across messaging, ussd, and topups. Enjoy
+                                        unparalleled scalability, deliverability, and cost-effectiveness.
                                     </h5>
                                 </div>
                                 <div className="hero-slider-btn btn-sm">

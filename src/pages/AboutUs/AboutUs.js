@@ -23,12 +23,8 @@ const AboutUs = () => {
          <HomeHeader/>
          <CommonPageHeader title="Company" subtitle="About" />
          <AboutArea/>
-         {/*<AboutCounter/>*/}
-         {/*<AboutAppoinment/>*/}
-         {/*<HomeOurTeam/>*/}
-         <HomeFact/>
-         <AboutTestimonial/>
-         {/*<AboutAnalysis/>*/}
+         {/*<HomeFact/>*/}
+         {/*<AboutTestimonial/>*/}
          <Footer/>
       </>
    );
